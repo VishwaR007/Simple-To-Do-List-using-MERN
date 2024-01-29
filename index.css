@@ -1,0 +1,92 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background-color: wheat;
+}
+
+.navBAr {
+}
+
+.body {
+}
+
+.footer {
+}
+
+/* Childs of Body :  */
+/* Body Navbar */
+.bodyNavBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.addNewToDoDiv {
+}
+
+.addNewToDoLink {
+  text-decoration: none;
+  background-color: black;
+  color: wheat;
+  font-size: 25px;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+/* Body Body */
+.bodyBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyBodyMainContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: start;
+  align-items: center;
+  gap: 100px;
+  width: 80%;
+  margin-top: 100px;
+  /* background-color: red; */
+}
+
+.toDoMainContainer {
+  height: 300px;
+  width: 300px;
+  border: 2px solid #000000;
+  box-shadow: 0px 0px 20px black;
+}
+.iconSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 10px;
+  font-size: 25px;
+}
+.titleSection {
+  font-size: 20px;
+  border-bottom: 2px dotted black;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.contentSection {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.deleteIcon {
+  margin: 0px;
+  border: 1px solid black;
+  padding: 0px 3px;
+  cursor: pointer;
+}
+.titleOfToDo {
+  margin: 0px;
+}
+.contentOfToDo {
+  margin: 0px;
+}

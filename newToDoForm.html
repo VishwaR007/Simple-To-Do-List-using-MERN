@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="newToDoForm.css" class="rel" />
+    <title>Create New To Do</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <h1>Add new To DO</h1>
+      <form action="">
+        <label for="titleInput" class="titleLabelClass">Title : </label>
+        <input
+          type="text"
+          id="titleInput"
+          class="titleInputClass"
+          placeholder="Enter The Title"
+          required
+        />
+        <label for="contentInput" class="contentLabelClass">Content : </label>
+        <textarea
+          type="text"
+          id="contentInput"
+          class="contentInputClass"
+          placeholder="Enter the Content"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+
+        <button type="submit" class="newToDoSubmitBtn">Submit</button>
+      </form>
+    </div>
+
+    <script src="newToDoForm.js"></script>
+  </body>
+</html>

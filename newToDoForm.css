@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  background-color: wheat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainContainer h1 {
+  margin-bottom: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+form input {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+form textarea {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+form button {
+  font-size: 25px;
+  margin-top: 20px;
+  width: fit-content;
+  align-self: center;
+  padding: 5px 20px;
+}
